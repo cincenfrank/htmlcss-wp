@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+nav {
+  margin-left: -7px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px 8px;
+  color: grey;
+}
+
+.color-grey {
+  color: grey;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.logo {
+  width: 200px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  border-right: 1px solid gray;
+}
+
+.thin-title {
+  font-weight: 300;
+  font-size: 40px;
+}
+.bold-title {
+  font-weight: bold;
+  /* font-size: 60px; */
+}
+.paragraph {
+  font-size: 20px;
+}
+
+.hero {
+  height: 600px;
+  margin-bottom: 20px;
+  position: relative;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card::after {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.hero-text-box {
+  width: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  color: white;
+}
+
+.page-content {
+  padding-bottom: 20px;
+}
+
+.page-content-header {
+  margin-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.row::after {
+  /* clearfix */
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  float: left;
+  width: 25%;
+}
+.col > img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.col > h5 {
+  font-size: 20px;
+  padding: 10px 0;
+  color: rgb(108, 108, 108);
+}
+
+.col-center {
+  width: calc(50% - 40px);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-heart {
+  color: red;
+}
